@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>COT - Excursões</title>
+</head>
+<body>
+    <div id="headAzul">
+        <figure id="logo"></figure>
+    </div>
+    <container id="title"> <h1>Cadastrar Alunos - Excursão</h1></container>
+    <div id="caixaForm">
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome"><br>
+            <label for="rm">RG:</label>
+            <input type="text" id="rm"><br>
+            <label for="serie">Turma:</label>
+            <select id="serie">
+              <option value="12AA">12AA</option>
+              <option value="12AB">12AB</option>
+              <option value="13AA">13AA</option>
+              <option value="13AB">13AB</option>
+              <option value="14AA">14AA</option>
+              <option value="14AB">14AB</option>
+              <option value="15AB">15AB</option>
+              <option value="15AB">15AB</option>
+              <option value="16AA">16AA</option>
+              <option value="16AB">16AB</option>
+              <option value="17AA">17AA</option>
+              <option value="17AB">17AB</option>
+              <option value="18AA">18AA</option>
+              <option value="18AB">18AB</option>
+              <option value="18AC">18AC</option>
+              <option value="19AA">19AA</option>
+              <option value="19AB">19AB</option>
+              <option value="19AC">19AC</option>
+              <option value="11MA">11MA</option>
+              <option value="11MB">11MB</option>
+              <option value="12MA">12MA</option>
+              <option value="12MB">12MB</option>
+              <option value="12MC">12MC</option>
+              <option value="13MA">13MA</option>
+              <option value="13MB">13MB</option>
+              <option value="21AA">21AA</option>
+              <option value="21AB">21AB</option>
+              <option value="21AC">21AC</option>
+              <option value="21AD">21AD</option>
+              <option value="21AE">21AE</option>
+              <option value="22AA">22AA</option>
+              <option value="22AB">22AB</option>
+              <option value="22AC">22AC</option>
+              <option value="22AD">22AD</option>
+              <option value="22AE">22AE</option>
+              <option value="23AA">23AA</option>
+              <option value="23AB">23AB</option>
+              <option value="23AC">23AC</option>
+              <option value="24AA">24AA</option>
+              <option value="24AB">24AB</option>
+              <option value="25AA">25AA</option>
+              <option value="25AB">25AB</option>
+              <option value="26AA">26AA</option>
+              <option value="26AB">26AB</option>
+              <option value="27AA">27AA</option>
+              <option value="27AB">27AB</option>
+              <option value="28AA">28AA</option>
+              <option value="29AA">29AA</option>
+            </select><br>
+            <label for="data">Data:</label>
+            <input type="date" id="data"><br>
+            <label for="condutor">Condutor:</label>
+            <select id="condutor">
+              <option value="Condutor A">Condutor A</option>
+              <option value="Condutor B">Condutor B</option>
+              <option value="Condutor C">Condutor C</option>
+            </select><br>
+            <label for="professor">Professor:</label>
+            <input type="text" id="professor"><br>
+            <label for="tipo">Excursão:</label>
+            <select id="tipo">
+              <option value="Hopi Hari">Hopi Hari</option>
+              <option value="Turma da Monica">Turma da Monica</option>
+            </select><br>
+            <label for="pago">Pago:</label> 
+            <input type="checkbox" id="pago"><br>
+            <label for="recibo">Nº Recibo:</label>
+            <input type="text" id="recibo"><br>
+            <label for="observacao">Observação:</label>
+            <textarea id="observacao"></textarea><br>
+            <input type="button" value="Cadastrar" onclick="scriptCadAluno()">
+          </form>
+    </div>
+    <div id="rodape">
+        <h3>Colégio Oliveira Telles - 2023</h3>
+    </div>
+    <table id="alunos">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>RM</th>
+          <th>Série</th>
+          <th>Data</th>
+          <th>Tipo</th>
+          <th>Pago</th>
+          <th>Observação</th>
+        </tr>
+      </thead>
+    </div>
+      <tbody>
+      </tbody>
+    </table>
+    <script src="scriptCadAluno.js"></script>
+</body>
+</html>

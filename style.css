@@ -1,0 +1,148 @@
+#headAzul {
+    justify-content: center;
+    margin: auto;
+    height: 86px;
+    background: #001F8C;
+    border-bottom: 5px solid #262626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logo{
+    position: absolute;
+    width: 218px;
+    height: 60px;  
+    background: url(COT-35.png);
+}
+
+#caixaForm{
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    background: #ffffff;
+    mix-blend-mode: normal;
+    border: 3px solid #000000;
+    backdrop-filter: blur(2px);
+    border-radius: 16px;    
+}
+
+#title{
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: 10px #000000;
+    -webkit-text-stroke: 1px #000000;
+    
+    
+}
+
+body{
+    background: url(fundotela.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rodape{
+    margin-top: 15px;
+    position: sticky;
+    height: 86px;
+    background: #001F8C;
+}
+
+form {
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+color: #000000;
+  }
+
+  input[type="text"],
+      input[type="date"],
+      select,
+      textarea{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+      
+      input[type="checkbox"] {
+        margin-right: 5px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+    
+      input[type="button"] {
+        margin-left: 200px;
+        box-sizing: border-box;     
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+        background: #2360FD;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-bottom: 15px;
+        padding: 10px;
+      }
+    
+      input[type="button"]:hover {
+        background-color: #1815f1;
+      }
+
+      h3{
+        text-align: center;
+        font-family: 'Arial';
+        color: white;
+        padding: 30px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+      }
+    
+      th, td {
+        text-align: left;
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+      }
+    
+      th {
+        background-color: #3308f1;
+        color: white;
+      }
+    
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+
+      }
